@@ -1,0 +1,10 @@
+type Query {
+  products(titleFilter: String): [Product]
+}
+
+type Product {
+  id: String
+  sku: String
+  title: String
+  description: String
+}
